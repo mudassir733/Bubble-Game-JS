@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcoral;
+}
+.bubble-container{
+    width: 70%;
+    height: 90%;
+    background-color: rgb(240, 226, 226);
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    overflow: hidden;
+}
+.top-nav{
+    width: 100%;
+    height: 4rem;
+    padding: 20px;
+    background-color: rgb(155, 102, 206);
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box{
+    background-color: #ffffffe7;
+    color: #fff;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    
+}
+.box h2{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #222;
+}
+h2 span{
+    font-size: 1.2rem;
+}
+.time{
+    color: green !important;
+}
+.center-bar{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    gap: 10px;
+}
+.center-bar button{
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    border: none;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    border-radius: 50px;
+    font-weight: 600;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    transition: scale 400ms ease;
+}
+button:hover{
+    scale: 1.1;
+}
